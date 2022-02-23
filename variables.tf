@@ -1,6 +1,6 @@
 variable "project" {
   description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
-  default       = "manifest-access-320809"
+  default       = "terraform-demo-342207"
 }
 
 variable "name" {

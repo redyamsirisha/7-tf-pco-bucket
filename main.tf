@@ -1,7 +1,7 @@
-resource "google_storage_bucket" "static" {
+resource "google_storage_bucket" "storage" {
   project = var.project
 
-  name          = "${var.name}-bucket"
+  name          = "${var.name}-bucket1"
   location      = var.static_content_bucket_location
   storage_class = "MULTI_REGIONAL"
 
